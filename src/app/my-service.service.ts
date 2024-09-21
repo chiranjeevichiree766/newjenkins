@@ -6,4 +6,7 @@ import { Injectable } from '@angular/core';
 export class MyServiceService {
 
   constructor() { }
+  getValue(): string {
+    return 'Service Value'; // This method should be defined
+  }
 }

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-component.component.css']
 })
 export class MyComponentComponent {
+  title: string = 'Hello, Angular!'; // This property should be defined
 
 }

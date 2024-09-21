@@ -13,4 +13,7 @@ describe('MyServiceService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+  it('should return a value', () => {
+    expect(service.getValue()).toEqual('Service Value'); // Replace with your method and expected value
+  });
 });
