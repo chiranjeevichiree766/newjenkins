@@ -19,7 +19,7 @@ describe('MyComponentComponent', () => {
     expect(component).toBeTruthy();
   });
   it('should have a default title', () => {
-    expect(component.title).toEqual('Hello, Angular!'); // Example title test
+    expect(component.title).toEqual('Hello, Angula!'); // Example title test
   });
 
   it('should render title in a h1 tag', () => {
